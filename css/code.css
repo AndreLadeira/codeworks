@@ -1,0 +1,89 @@
+/*-----------------------------------------------------------------
+                            code window
+-----------------------------------------------------------------*/
+*{
+  border: 0;
+  padding:0;
+  margin: 0;
+}
+.codeblock.container *
+{
+	 font-family: Courier, monospace;
+	 font-family: 'Source Code Pro', monospace;
+}
+.codeblock.header
+{
+  width: 100%;
+  font-size: 0.9em;
+  line-height: 2em;
+  margin-bottom: 4px;
+  overflow: auto;
+}
+.codeblock.header a
+{
+  text-decoration: none;
+  color: inherit;
+}
+.codeblock.header span.filename
+{
+  padding-left: 0px;
+  color: steelblue;
+}
+.codeblock.header span.filename:hover
+{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.codeblock.header span.btn
+{
+  float: right;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: -10px;
+}
+.codeblock.header span.btn:hover
+{
+  background: orange;
+  color: white;
+  cursor: pointer;
+}
+
+.codeblock.container
+{
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  border: 1px solid darkgray;
+  margin-bottom: 20px;
+}
+.codeblock .linenumbers
+{
+  text-align: right;
+  width: 50px;
+  background: silver;
+  float: left;
+  height: 100%;
+  position: absolute;
+  padding: 10px 0px 10px 0px;
+  
+  
+  color: silver;
+  background: whitesmoke;
+  
+  line-height: 1.3em;
+  font-size: 0.9em;
+}
+.codeblock .code
+{
+  margin-left: 50px;
+  white-space: nowrap;
+  overflow-x: scroll;
+  border-left: 1px solid darkgray;
+  padding: 10px 0px 10px 4px;
+  background: ghostwhite;
+  
+  line-height: 1.3em;
+  font-size: 0.9em;
+}
+
+

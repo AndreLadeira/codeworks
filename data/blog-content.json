@@ -1,0 +1,50 @@
+[
+{
+"id":"persistence",
+"title":"Persistence",
+"subtitle":"",
+"month":"8",
+"day":"10",
+"year":"2016",
+"author":"André Ladeira",
+"category":"",
+"article":false,
+"rank":"1000"
+},
+{
+"id":"plugin_factory",
+"title":"Plugins and the Factory Pattern",
+"subtitle":"Subtext is good to explain better the content of the article in order to motivate the reader to dig in",
+"month":"8",
+"day":"25",
+"year":"2016",
+"author":"André Ladeira",
+"category":"2 1 4",
+"article": true,
+"rank":"1"
+},
+{
+"id":"persistence2",
+"title":"Persistence²",
+"subtitle":"",
+"month":"8",
+"day":"18",
+"year":"2016",
+"author":"André Ladeira",
+"category":"3 5 6 1",
+"article":false,
+"rank":"2"
+},
+{
+"id":"devcpp_singapore",
+"title":"The developer Prime Minister",
+"subtitle":"Or: some countries have better politics than others",
+"month":"2",
+"day":"15",
+"year":"2017",
+"author":"André Ladeira",
+"category":"",
+"article":false,
+"rank":"3"
+}
+]

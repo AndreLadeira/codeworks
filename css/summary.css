@@ -1,0 +1,248 @@
+/* ------------------------------------------------
+				      summary
+--------------------------------------------------- */
+.summary
+{
+  /* min-height:200px; */
+  overflow: auto;
+  padding-top: 20px;
+  margin-bottom: 40px;
+  
+}
+.summary img
+{
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
+.summary .contents
+{
+  height: auto;
+  min-height: 200px;
+  overflow:auto;
+  /* background-color: silver; */
+  
+}
+.summary.title
+{
+  border: 0;
+  padding:0;
+  margin:0;
+  
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  height: auto;
+  min-height: auto; 
+}
+h1.summary.title
+{
+  font-size: 1.8em;
+}
+.summary.title strong
+{
+	color: steelblue;
+} 
+.summary h1 a
+{
+  text-decoration: none;
+}
+.summary h1 a:hover
+{
+  color: orange;
+}
+.summary span.date
+{
+  display: block;
+  color: darkgray;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.0em;
+  font-style: italic;
+  font-weight: normal;
+  margin-top: 5px;
+  margin-left: 10px;
+  /* background: yellow; */
+}
+.summary span.date a
+{
+  font-family: inherit;
+  text-decoration: none;
+}
+.summary p
+{
+  text-align: left;
+  line-height: 150%;
+  margin: 0px 15px 15px 15px;
+  /* text-align: justify; */
+}
+.summary p:first-of-type
+{
+  margin-top: 30px;
+}
+.summary p a
+{
+  color: orange;
+  text-decoration: none;
+}
+.summary p a:hover
+{
+  color: steelblue;
+}
+.summary span.category
+{
+  font-size: 0.8em;
+  display: block;
+  margin-top: 30px;
+}
+.summary span.category a
+{
+  color: steelblue;
+  text-decoration: none;
+}
+.summary span.category a:hover
+{
+  color: darkorange;
+}
+.summary span.category:before
+{
+  content: "Category: ";
+}
+.summary blockquote
+{
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 30px;
+  font-style: italic;
+  text-align: justify;
+  line-height: 150%;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  font-weight: normal;
+  letter-spacing: 0.5px
+}
+.summary span.author
+{
+  color: steelblue;
+  font-family: inherit;
+}
+.summary span.author:hover
+{
+   text-decoration: underline;
+}
+/*-------------------------------------------------------
+					search result
+---------------------------------------------------------*/
+.search-results, search-results .container
+{
+	margin-top:0;
+	padding-top:0;
+	border-top:0;
+	min-height:0;
+	height: auto;
+}
+.search-results .container:hover
+{
+	background-color: rgb(248,248,248);
+}
+.search-results a
+{
+	text-decoration: none;
+}
+.search-results a:focus {outline:none;}
+.search-results a:-moz-focus-inner {border:0;}
+
+.search-results h1
+{
+	text-align: center;
+  	font-weight: bold;
+  	font-size: 2.0em;
+  	margin-top:10px;
+}
+
+.search-results .contents 
+{
+	/* background-color: Plum; */
+	min-height: 200px;
+	padding-bottom: 20px;
+	height: auto;
+}
+.search-results .contents h1
+{
+	text-align: left;
+  	font-weight: normal;
+  	font-size: 1.5em;
+}
+.search-results span.strong
+{
+	color: steelblue;
+	font-weight: bold;
+}
+.search-results span.date
+{
+	color: darkgray;
+	font-family: inherit;
+	margin-bottom: 15px;
+}
+.search-results img
+{
+	width: 120px;
+	height:120px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+.search-results .contents p
+{
+	/* text-overflow: ellipsis;
+  	white-space: nowrap; 
+  	overflow: hidden; 
+  	line-height: 120%; */
+  	font-weight: normal;
+  	/* background: PaleGoldenrod; */
+  	border: 0;
+  	padding:0;
+  	margin:0;
+  	line-height: 150%;
+  	margin-left: 10px;
+}
+.search-results .contents p.info
+{
+	color: steelblue;
+	padding-top: 15px;
+}
+.search-results p:first-of-type
+{
+  /* margin-top: 5px; */
+}
+.search-results span.match
+{
+	color: darkorange;
+}
+.search-results hr:first-of-type
+{
+	margin-top: 40px;
+}
+.search-results p.poweredby
+{
+	text-align: center;
+}
+.search-results p.poweredby span.gblue
+{
+	font-weight: bold;
+	color: rgb(66,33,244);
+}
+.search-results p.poweredby span.gred
+{
+	font-weight: bold;
+	color: rgb(234,67,53);
+}
+.search-results p.poweredby span.gyellow
+{
+	font-weight: bold;
+	color: rgb(251,188,5);
+}
+.search-results p.poweredby span.ggreen
+{
+	font-weight: bold;
+	color: rgb(52,168,83);
+}

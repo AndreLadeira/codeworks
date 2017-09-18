@@ -1,0 +1,173 @@
+/*-----------------------------------------------------------------
+                         Small Screens
+-----------------------------------------------------------------*/
+@media only screen and (max-width: 800px)
+{
+  .content
+  {
+    width: 96%;
+  }
+  .navbar
+  {
+    height: 20%;
+    min-height: 40px;
+  }
+  .navbar .content
+  {
+    width: 100%;
+  }
+  /* ------------------------------------------------
+				      brand
+  --------------------------------------------------- */
+  .brand
+  {
+    /* background: rgba(0,128,0,0.4); */
+  }
+  .brand h1
+  {
+    padding-left: 10px;
+    font-size: 2.0em;
+  }
+  .brand h2
+  {
+    display: none;
+  }
+  /* ------------------------------------------------
+				      nav
+  --------------------------------------------------- */
+  .nav
+  {
+    /* background: rgba(128,0,0,0.4); */
+    width: 100%;
+    height: 100%;
+  }
+  .nav ul
+  {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+  }
+  .nav ul li
+  {
+    float: none;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    border: 1px solid white;
+    border-bottom: 0;
+    font-size: 1.0em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .nav li a
+  {
+  	padding: 10px 15px 10px 15px;
+  }
+  .nav ul li:last-child
+  {
+    border-bottom: 1px solid white;
+  }
+  /* ------------------------------------------------
+				      collapse btn
+  --------------------------------------------------- */
+  .nav button.collapse
+  {
+    display: initial;
+  }
+  /* ------------------------------------------------
+				      nav search
+  --------------------------------------------------- */
+  .nav div.search
+  {
+    position: absolute;
+    width:100%;
+    top: 100%;
+  }
+  .nav div.search > form button.cancelBtn, 
+  .nav div.search > form button.searchBtn
+  {
+    display: none;
+  }
+  .nav div.search input
+  {
+    border: 2px solid silver;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    width: 99.9%;
+    
+  }
+  /* ------------------------------------------------
+				      summary
+  --------------------------------------------------- */
+  .summary .contents,
+  {
+    /* background: lavender; */
+    padding-left: 0px;
+  }
+  .summary > .contents > h1, .summary > .contents > span.date, 
+  .summary > .contents > span.author, .summary > .contents > span.category,
+  {
+	text-align: center;
+  }
+  .summary .contents p
+  {
+    
+  }
+  .summary blockquote
+  {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .summary img
+  {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  
+  .headline h1
+  {
+  
+  	font-size: 2.0em;
+    line-height: 1.4;
+  	border-left: 5px solid orange;
+   /* background: silver; */
+  }
+  .headline h1:first-child
+  {
+  	font-size: 1.4em;
+  	font-family: inherit;
+  }
+  .headline h2
+  {
+  	padding-top: 20px;;
+  	font-style: italic;
+  	font-size: 1.2em;
+  }
+  /* ------------------------------------------------
+				      search results
+  --------------------------------------------------- */
+  .search-results  .contents  h1, .search-results .contents  span.date
+  {
+  	margin:0;
+  	text-align: center;
+  }
+   .search-results  .contents  p
+  {
+  	text-align: justify;
+  	margin-left: 10px;
+  	margin-right: 10px;
+  }
+  /* ------------------------------------------------
+				      post/article
+  --------------------------------------------------- */
+  /* .article
+  {
+  	text-align: justify;
+  } */
+}

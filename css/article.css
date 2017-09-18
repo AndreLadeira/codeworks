@@ -1,0 +1,201 @@
+/*-----------------------------------------------------------------
+                       Article / Post
+-----------------------------------------------------------------*/
+.article
+{
+	margin-bottom: 60px;
+}
+.article > *:last-child
+{
+  /* margin-bottom: 100px; */
+}
+.article > *
+{
+  margin-bottom: 20px;
+}
+.article a
+{
+  text-decoration: none;
+  color: steelblue;
+}
+.article a:hover
+{
+	color: orange;
+}
+.article h1
+{
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.0em;
+  line-height: 120%;
+}
+.article h2
+{
+  text-align: center;
+  font-weight: 100;
+  font-size: 1.5em;
+  line-height: 120%;
+}
+.article h3
+{
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.5em;
+  line-height: 120%;
+  margin-top: 30px;
+}
+.article > h3:first-of-type
+{
+  margin-top: 40px;
+}
+.article span.date
+{
+  display: block;
+  color: darkgray;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.0em;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+}
+.article span.date a
+{
+  font-family: inherit;
+}
+.article span.author, .article span.strong
+{
+  color: steelblue;
+  font-family: inherit;
+}
+.article span.author:hover
+{
+   text-decoration: underline;
+}
+.article p
+{
+  line-height: 150%;
+  letter-spacing: 1.2px;
+}
+.article > p:first-of-type
+{
+  margin-top: 30px;
+}
+.article > ul
+{
+  line-height: 2.0em;
+  padding-left: 2.0em;
+}
+/*-----------------------------------------------------------------
+                       Callout
+-----------------------------------------------------------------*/
+div.callout
+{
+  border-left: 5px solid gray;
+  background: #f0f3f4;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+}
+div.callout > span.label
+{
+  font-size: 1.2em;
+  font-weight: bold;
+  margin:0;
+  padding:0;
+}
+div.callout > p
+{
+  font-size: 1.0em;
+  padding-top: 1em;
+}
+div.callout.warning
+{
+  border-color: darkorange;
+}
+div.callout.warning > span.label
+{
+  color: darkorange;
+}
+div.callout.error
+{
+  border-color:  red;
+}
+div.callout.error >  span.label
+{
+  color:  red;
+}
+div.callout.info
+{
+  border-color:  steelblue;
+}
+div.callout.info >  span.label
+{
+  color:  steelblue;
+}
+/*-----------------------------------------------------------------
+                       subsection
+-----------------------------------------------------------------*/
+div.subsection
+{
+	/*text-align: justify;*/
+}
+div.subsection p
+{
+	margin-top: 20px;
+}
+div.subsection p:first-of-type
+{
+	margin-top: 0px;
+}
+div.subsection h3
+{
+	margin-top:0;
+	margin-bottom: 50px;
+}
+div.threedotseparator
+{
+  font-size: 1.7em;
+  color: darkgray;
+  text-align: center;
+}
+/*-----------------------------------------------------------------
+                       Images
+-----------------------------------------------------------------*/
+img.regular
+{
+	margin-top: 0px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+img.portrait-left
+{
+  	float: left;
+  	padding-right: 1em;
+  	padding-bottom: 1em;
+}
+img.portrait-right
+{
+	float: right;
+}
+img.small
+{
+	width: 20%;
+	max-width: 200px;
+  	min-width: 100px;
+}
+img.medium
+{
+	width: 40%;
+}
+/*-----------------------------------------------------------------
+                       captions
+-----------------------------------------------------------------*/
+.article p.caption
+{
+	font-size: 1.0em;
+}
+.article p.regular
+{
+	text-align: center;
+}
